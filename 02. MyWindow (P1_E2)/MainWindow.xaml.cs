@@ -43,6 +43,19 @@ namespace _02.MyWindow__P1_E2_
 
         }
 
+        private void setBut_Click(object sender, RoutedEventArgs e)
+        {
 
+        }
+
+        private void retBut_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void setText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

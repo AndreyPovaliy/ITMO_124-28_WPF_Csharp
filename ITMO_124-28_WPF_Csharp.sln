@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. WpfHelloNav (P1_E3)", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WpfHello (P1_E1)", "01. WpfHello (P1_E1)\01. WpfHello (P1_E1).csproj", "{9E311D2E-29E8-4C67-B43B-9485FBE353B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MyWindow (P1_E2)", "02. MyWindow (P1_E2)\02. MyWindow (P1_E2).csproj", "{3FE5CC0F-F29A-439D-83AE-C7070877EB0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. MyWindow (P1_E2_P2_E1_E2)", "02. MyWindow (P1_E2)\02. MyWindow (P1_E2_P2_E1_E2).csproj", "{3FE5CC0F-F29A-439D-83AE-C7070877EB0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
