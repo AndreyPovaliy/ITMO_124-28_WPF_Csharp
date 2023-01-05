@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="New_Win" Content="New Win" Margin="10,143,496,191" Click="New_Win_Click"/>
-        <TextBlock x:Name="txtBlock" TextWrapping="Wrap" Text="TextBlock" Margin="400,99,144,136" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="75"/>
+        <Button x:Name="New_Win" Content="New Win" HorizontalAlignment="Left" Margin="318,217,0,0" VerticalAlignment="Top" Click="New_Win_Click"/>
+        <TextBlock x:Name="txtBlock" Margin="571,157,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" HorizontalAlignment="Left" Height="50" Width="75"/>
 
     </Grid>
 </Window>

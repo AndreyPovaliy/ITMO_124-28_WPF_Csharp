@@ -26,10 +26,9 @@ namespace _02.MyWindow__P1_E2_
         }
         public MainWindow()
         {
+            InitializeComponent();
             Top = 25;
             Left = 25;
-            InitializeComponent();
-           
         }
 
         private void New_Win_Click(object sender, RoutedEventArgs e)
@@ -40,9 +39,10 @@ namespace _02.MyWindow__P1_E2_
             var location = New_Win.PointToScreen(new Point(0, 0));
             myWin.Left = location.X + New_Win.Width;
             myWin.Top = location.Y;
-
             myWin.Show();
 
         }
+
+
     }
 }

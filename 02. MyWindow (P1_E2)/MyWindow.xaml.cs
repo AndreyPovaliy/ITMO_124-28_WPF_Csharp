@@ -11,36 +11,48 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace _02.MyWindow__P1_E2_
 {
+
     /// <summary>
     /// Логика взаимодействия для MyWindow.xaml
     /// </summary>
     public partial class MyWindow : Window
     {
-        MainWindow wnd1 = null;
+
+
         private bool _close;
+        MainWindow wnd1 = null;
+
+
+
         public MyWindow()
         {
             InitializeComponent();
+
             using (System.IO.StreamWriter writer = new System.IO.StreamWriter("log.txt", true))
             {
                 writer.WriteLine("Внесено {0}: {1} ", textBox.Text, DateTime.Now.ToShortDateString() + ", время: " +
                 DateTime.Now.ToLongTimeString());
                 writer.Flush();
+
             }
+
         }
 
         public new void Close() 
         { 
-            _close = true; base.Close(); 
+            _close = true; 
+            base.Close(); 
         }
 
         private void Window_Closing_1(object sender, System.ComponentModel.CancelEventArgs e) 
         { 
             if (_close) return; 
-            e.Cancel = true; 
+            e.Cancel = true;
+            
             Hide(); 
         }
 
@@ -50,16 +62,15 @@ namespace _02.MyWindow__P1_E2_
             if (wnd1 != null)
             {
                 wnd1.txtBlock.Text = textBox.Text;
-
+                
             }
             Close();
-           
         }
 
         private void Window_Closed(object sender, EventArgs e)
         {
             wnd1.myWin = null;
-            PrintLogFile();
         }
+
     }
 }
