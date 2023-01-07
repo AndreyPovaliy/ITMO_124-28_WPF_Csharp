@@ -11,23 +11,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.IO;
 
-namespace _02.MyWindow__P1_E2_
+namespace WpfHello__P1_E1_
 {
-
     /// <summary>
     /// Логика взаимодействия для MyWindow.xaml
     /// </summary>
     public partial class MyWindow : Window
     {
 
-
-        private bool _close;
         MainWindow wnd1 = null;
-
-        string nameFile = "username.txt";
-
+        private bool _close;
         public MyWindow()
         {
             InitializeComponent();
@@ -37,15 +31,13 @@ namespace _02.MyWindow__P1_E2_
                 writer.WriteLine("Внесено {0}: {1} ", textBox.Text, DateTime.Now.ToShortDateString() + ", время: " +
                 DateTime.Now.ToLongTimeString());
                 writer.Flush();
-
             }
-
         }
 
-        public new void Close() 
-        { 
-            _close = true; 
-            base.Close(); 
+        public new void Close()
+        {
+            _close = true;
+            base.Close();
         }
 
         private void Window_Closing_1(object sender, System.ComponentModel.CancelEventArgs e) 
@@ -70,16 +62,7 @@ namespace _02.MyWindow__P1_E2_
         private void Window_Closed(object sender, EventArgs e)
         {
             wnd1.myWin = null;
-        }
 
-        private void SetBut()
-        {
-            System.IO.StreamWriter sw = new System.IO.StreamWriter(nameFile);
-            sw.WriteLine(setText.Text);
-            sw.Close();
-            retBut.IsEnabled = true;
-            isDataDirty = false;
         }
-
     }
 }

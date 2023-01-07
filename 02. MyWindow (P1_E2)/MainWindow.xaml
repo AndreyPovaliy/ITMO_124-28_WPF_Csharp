@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:_02.MyWindow__P1_E2_"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
     <Grid>
         <DockPanel>
             <Menu DockPanel.Dock="Top" HorizontalAlignment="Left">
@@ -37,7 +37,7 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                <Button x:Name="setBut" Grid.Column="0" Grid.Row="0" Content="Set Name " HorizontalAlignment="Left" Margin="10,15" VerticalAlignment="Top" Width="75" Click="setBut_Click"/>
+                <Button x:Name="setBut" Grid.Column="0" Grid.Row="0" Content="Set Name " HorizontalAlignment="Left" Margin="10,15,0,88" Width="75" Click="setBut_Click"/>
                 <Button x:Name ="retBut" Grid.Column="0" Grid.Row="1" Content="Ret Name " HorizontalAlignment="Left" Margin="10,15" VerticalAlignment="Top" Width="75" Click="retBut_Click"/>
                 <TextBox x:Name="setText" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="23" Margin="10,15" TextChanged="setText_TextChanged"/>
                 <Label x:Name="retLabel" Grid.Column="1" Grid.Row="1" Content="Label" HorizontalAlignment="Left" Margin="10,15" VerticalAlignment="Top"/>

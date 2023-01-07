@@ -20,13 +20,15 @@ namespace WpfHello__P1_E1_
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        public MyWindow myWin { get; set; }
         public MainWindow()
         {
             InitializeComponent();
             lbl.Content = "Добрый день!"; 
             setBut.IsEnabled = false; 
             retBut.IsEnabled = false;
+            Top = 25;
+            Left = 25;
         }
 
         private void setBut_Click(object sender, RoutedEventArgs e)
@@ -79,5 +81,18 @@ namespace WpfHello__P1_E1_
         {
             this.Close();
         }
+
+        private void New_Win_Click(object sender, RoutedEventArgs e)
+        {
+            if (myWin == null) 
+                myWin = new MyWindow();
+            myWin.Owner = this;
+            var location = New_Win.PointToScreen(new Point(0, 0));
+            myWin.Left = location.X + New_Win.Width;
+            myWin.Top = location.Y;
+            myWin.Show();
+        }
+
+        
     }
 }
