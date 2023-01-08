@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. WpfUserControl (P10_E1)
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.WpfUserControl (P10_E2)", "WpfUserControl\08.WpfUserControl (P10_E2).csproj", "{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ExpenseIt (LW_1)", "09. ExpenseIt (LW_1)\09. ExpenseIt (LW_1).csproj", "{AC787442-7B89-4D76-B5BC-D6CA9DA01850}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

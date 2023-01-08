@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfUserControl
+namespace _09.ExpenseIt__LW_1_
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml

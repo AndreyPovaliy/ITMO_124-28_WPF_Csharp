@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _08.WpfUserControl__P10_E2_
+namespace WpfUserControl
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

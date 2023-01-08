@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace WpfUserControl
+namespace _09.ExpenseIt__LW_1_
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

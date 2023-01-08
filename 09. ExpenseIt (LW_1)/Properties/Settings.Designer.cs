@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WpfUserControl.Properties
+namespace _09.ExpenseIt__LW_1_.Properties
 {
 
 
