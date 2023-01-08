@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _09.ExpenseIt__LW_1_
+namespace ExpenseIt
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml

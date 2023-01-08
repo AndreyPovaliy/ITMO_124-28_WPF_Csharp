@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _09.ExpenseIt__LW_1_.Properties
+namespace ExpenseIt.Properties
 {
 
 
