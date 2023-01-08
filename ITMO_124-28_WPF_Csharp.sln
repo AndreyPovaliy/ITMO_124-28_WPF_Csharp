@@ -3,21 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfHelloNav (P1-E3)", "03. WpfHelloNav (P1_E3)\02. WpfHelloNav (P1-E3).csproj", "{200ECEDA-C516-4446-A624-B252654B8DE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WpfHello (P1,2,3,4,5,6,7,8)", "01. WpfHello (P1,2,3,4,5,6,7,8)\01. WpfHello (P1,2,3,4,5,6,7,8).csproj", "{9E311D2E-29E8-4C67-B43B-9485FBE353B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. WpfHello (P1,2,3,4,5,6,7,8)", "01. WpfHello (P1_E1)\01. WpfHello (P1,2,3,4,5,6,7,8).csproj", "{9E311D2E-29E8-4C67-B43B-9485FBE353B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. WpfHelloNav (P1-E3)", "02. WpfHelloNav (P1-E3)\02. WpfHelloNav (P1-E3).csproj", "{200ECEDA-C516-4446-A624-B252654B8DE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. WpfRoutedEvent_1 (P3-E1)", "04. WpfRoutedEvent_1 (P3_E1)\03. WpfRoutedEvent_1 (P3-E1).csproj", "{35B75C16-2741-4935-9AD6-03F5F8EF5A2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. WpfRoutedEvent_1 (P3-E1)", "03. WpfRoutedEvent_1 (P3-E1)\03. WpfRoutedEvent_1 (P3-E1).csproj", "{35B75C16-2741-4935-9AD6-03F5F8EF5A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. WpfRoutedEvent_2 (P3-E2)", "05. WpfRoutedEvent_2\04. WpfRoutedEvent_2 (P3-E2).csproj", "{1A0D52B7-9F68-4AEF-B6EF-CAA3F6F826A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. WpfRoutedEvent_2 (P3-E2)", "04. WpfRoutedEvent_2 (P3-E2)\04. WpfRoutedEvent_2 (P3-E2).csproj", "{1A0D52B7-9F68-4AEF-B6EF-CAA3F6F826A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BackgroundWorker (P9)", "05. BackgroundWorker (P9)\05. BackgroundWorker (P9).csproj", "{691F20F9-97CA-4F37-A306-B0EE4A039805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. WpfUserControl (P10_E1)", "07. WpfUserControl (P10_E2)\07. WpfUserControl (P10_E1).csproj", "{B8ED22DE-A109-4C5C-9DB7-9EFF920429AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. ExpenseIt (LW_1)", "09. ExpenseIt (LW_1)\09. ExpenseIt (LW_1).csproj", "{AC787442-7B89-4D76-B5BC-D6CA9DA01850}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. UserForms (P10_E1)", "06. UserForms (P10_E1)\06. UserForms (P10_E1).csproj", "{B05EF49E-91B8-426B-B40D-879D5F157A45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. WpfUserControl (P10_E1)", "07. WpfUserControl (P10_E1)\07. WpfUserControl (P10_E1).csproj", "{B8ED22DE-A109-4C5C-9DB7-9EFF920429AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.WpfUserControl (P10_E2)", "08. WpfUserControl (P10_E2)\08.WpfUserControl (P10_E2).csproj", "{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}"
 EndProject
@@ -27,14 +23,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{200ECEDA-C516-4446-A624-B252654B8DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{200ECEDA-C516-4446-A624-B252654B8DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{200ECEDA-C516-4446-A624-B252654B8DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{200ECEDA-C516-4446-A624-B252654B8DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E311D2E-29E8-4C67-B43B-9485FBE353B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E311D2E-29E8-4C67-B43B-9485FBE353B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E311D2E-29E8-4C67-B43B-9485FBE353B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E311D2E-29E8-4C67-B43B-9485FBE353B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200ECEDA-C516-4446-A624-B252654B8DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200ECEDA-C516-4446-A624-B252654B8DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200ECEDA-C516-4446-A624-B252654B8DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200ECEDA-C516-4446-A624-B252654B8DE3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{35B75C16-2741-4935-9AD6-03F5F8EF5A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{35B75C16-2741-4935-9AD6-03F5F8EF5A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B75C16-2741-4935-9AD6-03F5F8EF5A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,14 +47,6 @@ Global
 		{B8ED22DE-A109-4C5C-9DB7-9EFF920429AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8ED22DE-A109-4C5C-9DB7-9EFF920429AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8ED22DE-A109-4C5C-9DB7-9EFF920429AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC787442-7B89-4D76-B5BC-D6CA9DA01850}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B05EF49E-91B8-426B-B40D-879D5F157A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B05EF49E-91B8-426B-B40D-879D5F157A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B05EF49E-91B8-426B-B40D-879D5F157A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B05EF49E-91B8-426B-B40D-879D5F157A45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C595D8-46AA-4A2B-90CA-EBE766D90AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
