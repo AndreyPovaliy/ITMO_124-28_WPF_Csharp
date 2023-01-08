@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WpfUserControl.Properties
+namespace _07.WpfUserControl__P10_E2_.Properties
 {
 
 

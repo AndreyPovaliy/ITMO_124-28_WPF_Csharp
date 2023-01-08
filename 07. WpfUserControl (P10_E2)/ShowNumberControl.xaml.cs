@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfUserControl
+namespace _07.WpfUserControl__P10_E2_
 {
     /// <summary>
     /// Логика взаимодействия для ShowNumberControl.xaml
@@ -24,6 +24,19 @@ namespace WpfUserControl
         {
             InitializeComponent();
         }
+
+        //private int currNumber = 0;
+        // public int CurrentNumber
+        //{
+        //    get { return currNumber; }
+        //    set
+        //    {
+        //        currNumber = value;
+        //        // Передаем в метку текущее значение
+        //        numberDisplay.Content = CurrentNumber.ToString();
+        //    }
+        // }
+
 
 
         public int CurrentNumber
@@ -40,7 +53,6 @@ namespace WpfUserControl
                     new PropertyChangedCallback(CurrentNumberChanged)),
                 new ValidateValueCallback(ValidateCurrentNumber));
 
-
         public static bool ValidateCurrentNumber(object value)
         {
             if (Convert.ToInt32(value) >= 0 && Convert.ToInt32(value) <= 500)
@@ -49,26 +61,13 @@ namespace WpfUserControl
                 return false;
         }
 
-        private static void CurrentNumberChanged(DependencyObject depObj, 
-            DependencyPropertyChangedEventArgs args)
+        private static void CurrentNumberChanged(DependencyObject depObj,
+DependencyPropertyChangedEventArgs args)
         {
             ShowNumberControl s = (ShowNumberControl)depObj;
             Label theLabel = s.numberDisplay;
             theLabel.Content = args.NewValue.ToString();
         }
 
-        //private int currNumber = 0;
-        //public int CurrentNumber
-        //{
-        //    get { return currNumber; }
-        //    set
-        //    {
-        //        currNumber = value;
-        //        // Передаем в метку текущее значение
-        //        numberDisplay.Content = CurrentNumber.ToString();
-        //    }
-        //}
     }
-
-    
 }

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfUserControl
+namespace _07.WpfUserControl__P10_E2_
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
