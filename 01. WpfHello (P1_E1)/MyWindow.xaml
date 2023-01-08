@@ -28,7 +28,7 @@
                                     <RotateTransform Angle="45" />
                                 </Rectangle.LayoutTransform>
                             </Rectangle>
-                            
+
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Grid>
                         <ControlTemplate.Triggers>
@@ -50,7 +50,7 @@
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
 
-                    
+
                 </Setter.Value>
             </Setter>
             <Style.Triggers>
@@ -76,19 +76,40 @@
                         </BeginStoryboard>
                     </EventTrigger.Actions>
                 </EventTrigger>
-                
+
             </Style.Triggers>
         </Style>
+        <local:StudentList x:Key="studentCollection" />
+
+        <local:BoolToBrushConverter x:Key="boolToBrushConverter" />
+
+        <DataTemplate x:Key="listBoxTemplate">
+            <StackPanel Orientation="Horizontal">
+                <Rectangle Fill="{Binding Path=IsEnrolled, Converter={StaticResource boolToBrushConverter}}"
+                           Height="10"
+                           Width="10"
+                           Margin="0,0,5,0" />
+                <TextBlock Text="{Binding Path=StudentName}" />
+            </StackPanel>
+        </DataTemplate>
     </Window.Resources>
+
     <Grid>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="39*"/>
             <ColumnDefinition Width="283*"/>
             <ColumnDefinition Width="151*"/>
             <ColumnDefinition Width="327*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="Button" Content="Button" HorizontalAlignment="Left" Margin="101,117,0,0" VerticalAlignment="Top" Height="28" Width="61" Click="Button_Click" Grid.Column="1"/>
+        <Button x:Name="Button" Content="Button" HorizontalAlignment="Center" Margin="0,187,0,0" VerticalAlignment="Top" Height="28" Width="61" Click="Button_Click" Grid.Column="1"/>
         <TextBox x:Name="textBox" Grid.Column="2" HorizontalAlignment="Left" Margin="18,117,0,0" TextWrapping="Wrap" Text="Этот текст вы отпраите на главную форму" VerticalAlignment="Top" Width="120" Height="80"/>
-
+        <ListBox 
+            x:Name="listBox1" 
+            ItemsSource="{Binding Source={StaticResource studentCollection}}"
+            ItemTemplate="{StaticResource listBoxTemplate}" 
+            Height="130" HorizontalAlignment="Left" 
+            Margin="12,12,0,0"  
+            VerticalAlignment="Top" Width="225" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
